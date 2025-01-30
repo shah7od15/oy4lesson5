@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #737373;
+font-size: 18px;
+font-weight: 300;
+line-height: 21.09px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+font-size: 50px;
+font-weight: 900;
+line-height: 58.59px;
+
+}
+button{
+    width: 179px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border-radius: 10px;
+    height: 53px;
+    margin-top: 58px;
+
+
+}
+.text{
+    width: 596px;
+}
+.za .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.s{
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+text-align: center;
+margin-top: 25px;
+}
+.s span{
+    color: red;
+}
+.box{
+    width: 344px;   
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px #B8005F33;
+margin-top: 40px;
+}
+.box h2{
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+margin-top: 30px;
+margin-left: 20px;
+
+}
+.box p{
+font-size: 14px;
+font-weight: 300;
+line-height: 16.41px;
+margin-top: 30px;
+margin-left: 20px;
+color: #767676;
+}
+.info .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    width: 439px;
+    padding: 63px 44px;
+    background-color: white;
+    position: relative;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.x{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card img{
+    position: absolute;
+    left: 145px;
+    top: -100px;
+}
+h5{
+    margin-bottom: 6px;
+}
+.b{
+    width: 224px;
+}
+footer .container{
+    padding: 172px 234px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #767676;
+    }
+    @media(max-width:460px){
+nav{
+display: none;
+}
+.s{
+    margin-top: 0   ;
+}
+    }
+    @media(max-width:990px){
+        .box{
+            width: 594px;
+        }
+        .box img{
+            width: 594px;
+        }
+        .info .container{
+            justify-content: center;
+        }
+    }
+h6{
+font-size: 24px;
+font-weight: 500;
+line-height: 28.13px;
+text-align: center;
+}
+.in1{
+    width: 362px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.in2{
+    width: 750px;
+    height: 80px;
+    border-radius: 5px;
+}
+.input{
+    padding: 42px 300px;
+}
+
+.in3{
+    width: 362px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 21px;
+}
+.input .container button{
+margin-left: 290px;
+}
+@media(max-width:1350px){
+    .in2{
+        width:432px;
+        height: 100px;
+        border-radius: 5px;
+    }
+    .in3{
+        width:432px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .in1{
+        width:432px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .input .container button{
+        margin-left: 130px;
+        }
+}
+.input{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    background-color: white;
+   display: none;
+}
+
+@media(max-width:750px){
+   .input{
+      padding-left: 250px;
+   }
+   .in2{
+    width:210px;
+    height: 100px;
+    border-radius: 5px;
+}
+.in3{
+    width:210px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.in1{
+    width:210px;
+    height: 20px;
+    border-radius: 5px;
+}
+.input .container button{
+    margin-left: 20px;
+    }
+    h6{
+        margin-left: -100px;
+    }
+}
